@@ -1,0 +1,23 @@
+.Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.Box-remove-btn{
+    display: none;
+    position: absolute;
+    width: 100%;
+    font-size: large;
+}
+
+.Box:hover{
+    cursor: pointer;
+}
+
+.Box:hover .Box-remove-btn{
+    display: block;
+}
